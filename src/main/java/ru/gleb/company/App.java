@@ -23,6 +23,7 @@ public class App {
 			if (query.getData().equals("33"))
 				unregister.run();
 		},(query) -> true);
+
     	bot.start();
 	}
 }
